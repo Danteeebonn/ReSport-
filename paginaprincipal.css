@@ -1,0 +1,17 @@
+:root {
+    --fondo: #72211E; 
+  }
+  
+  body {
+    margin: 0;
+    background-color: var(--fondo);
+    min-height: 100vh;
+  }
+  
+  .Iphone17derecha {
+    width: 352.66px;
+    height: 714px;
+    transform: rotate(20.19deg);
+    border: solid black 5px;
+    border-radius: 50px;
+  }
