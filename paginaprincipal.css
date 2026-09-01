@@ -1,5 +1,5 @@
 :root {
-    --fondo: #6f0c0c; 
+    --fondo: #730808; 
   }
   
   body {
@@ -11,22 +11,27 @@
     align-items: center;
     overflow: hidden;
   }
+  .h3{
+    width: 748px;
+    height: 361px;
+    color:white;
+  }
   
   .Iphone17izquierda {
-    width: 352.66px;
-    height: 714px;
+    width: 293px;
+    height: 595px;
     transform: rotate(20.19deg);
-    background-color: grey;
+    background-color: white;
     border: solid black 5px;
     border-radius: 50px;
     z-index: 2
   }
   
   .Iphone17derecha {
-    width: 352.66px;
-    height: 714px;
+    width: 293px;
+    height: 595px;
     transform: rotate(-20.19deg);
-    background-color: grey;
+    background-color: white;
     border: solid black 5px;
     border-radius: 50px;
     
