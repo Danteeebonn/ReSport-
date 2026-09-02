@@ -9,33 +9,42 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    overflow: hidden;
+    
   }
-  .h3{
-    width: 748px;
-    height: 361px;
-    color:white;
-  }
-  
+  .contenedordeiphone{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* Evita el parpadeo de transformaciones al recargar */
+      backface-visibility: hidden; 
+      will-change: transform; 
+    }
+
   .Iphone17izquierda {
-    width: 293px;
-    height: 595px;
+    aspect-ratio: 293 / 595;
+    height: 66.11vh; 
+    width: 16.31vw;
     transform: rotate(20.19deg);
     background-color: white;
     border: solid black 5px;
     border-radius: 50px;
-    z-index: 2
+    z-index: 2;
+    display: inline-block;
+    box-sizing: border-box;
   }
   
   .Iphone17derecha {
-    width: 293px;
-    height: 595px;
+    aspect-ratio: 293 / 595;
+    height: 66.11vh; 
+    width: 16.31vw;
     transform: rotate(-20.19deg);
     background-color: white;
     border: solid black 5px;
     border-radius: 50px;
-    
+    display: inline-block;
     margin-left: -120px; 
     margin-right: 80px;  
-    z-index: 1;         
+    z-index: 1;
+    box-sizing: border-box;
+    margin-right: 5vw;
   }
